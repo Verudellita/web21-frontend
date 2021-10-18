@@ -62,7 +62,7 @@ export const AppFooter = () => {
 
   return (
     <Box className={classes.root}>
-      <Container maxWidth={'lg'} disableGutters>
+      <Container maxWidth={'lg'}>
         <Logo variant={logoVariant.BW} />
         <Box className={classes.content}>
           <Box>

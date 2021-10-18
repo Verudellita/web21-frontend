@@ -8,6 +8,7 @@ const useStyles = makeStyles(({ palette }) => ({
     height: 64, //todo get current header height
     cursor: 'pointer',
     display: 'flex',
+    zIndex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     color: palette.primary.contrastText,

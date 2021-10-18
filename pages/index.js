@@ -13,7 +13,7 @@ const Home = ({ data }) => {
   const classes = useStyles();
 
   return (
-    <Box m={2} className={classes.root}>
+    <Box my={2} className={classes.root}>
       <Headline />
       <ScorecardsBox stats={data.stats} />
       <Box>events</Box>

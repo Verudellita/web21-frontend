@@ -40,6 +40,18 @@ theme.typography.h1 = {
   fontWeight: 700,
   lineHeight: 1.167,
   letterSpacing: '-0.01562em',
+  fontFamily: 'Product Sans',
+  [theme.breakpoints.down('sm')]: {
+    fontSize: '2.4rem',
+  },
+};
+
+theme.typography.h3 = {
+  fontSize: '3rem',
+  fontWeight: 700,
+  //lineHeight: 1.167,
+  //letterSpacing: '-0.01562em',
+  fontFamily: 'Red Hat Text',
   [theme.breakpoints.down('sm')]: {
     fontSize: '2.4rem',
   },

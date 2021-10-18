@@ -38,6 +38,7 @@ export const AppHeader = () => {
               }}>
               Event template
             </NextLink>
+            <NextLink href="/detail">Event detail</NextLink>
           </Box>
           <JoinUsHeaderButton />
         </Hidden>

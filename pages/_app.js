@@ -33,8 +33,10 @@ function MyApp({ Component, pageProps }) {
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
-        <Container className={classes.root} maxWidth={'lg'} disableGutters>
+        <Container className={classes.root} maxWidth={'lg'}>
           <AppHeader />
+        </Container>
+        <Container maxWidth={false} disableGutters>
           <Component {...pageProps} />
         </Container>
         <AppFooter />

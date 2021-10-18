@@ -4,8 +4,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import NextLink from '../../common/NextLink/NextLink';
 
-const useStyles = makeStyles(() => ({
-  root: {},
+const useStyles = makeStyles(({ spacing }) => ({
+  root: {
+    margin: spacing(3, 0),
+  },
 }));
 
 const EventBox = ({ slug }) => {
